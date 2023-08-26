@@ -1,0 +1,21 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+/.vs/MagicVilla/DesignTimeBuild/.dtbcache.v2
+/.vs/MagicVilla/FileContentIndex/435e1d42-afe5-480e-9a7e-72afe46524c8.vsidx
+/.vs/MagicVilla/FileContentIndex/5d60a858-8a7e-4f89-b0d2-c80065a04c5f.vsidx
+/.vs/MagicVilla/FileContentIndex/72a67ec3-5570-4c07-8284-1b50a9ecae14.vsidx
+/.vs/MagicVilla/FileContentIndex/f5fdb793-f944-41c7-b2e9-ce409cd1fead.vsidx
+/.vs/MagicVilla/v17/.suo
+/.vs/MagicVilla/v17/.futdcache.v2
+/.vs/ProjectEvaluation/magicvilla.metadata.v6.1
+/.vs/ProjectEvaluation/magicvilla.projects.v6.1
+/MagicVilla_API/bin/Debug/net7.0/MagicVilla_API.dll
+/MagicVilla_API/bin/Debug/net7.0/MagicVilla_API.pdb
+/MagicVilla_API/obj/Debug/net7.0/ref/MagicVilla_API.dll
+/MagicVilla_API/obj/Debug/net7.0/refint/MagicVilla_API.dll
+/MagicVilla_API/obj/Debug/net7.0/MagicVilla_API.csproj.CoreCompileInputs.cache
+/MagicVilla_API/obj/Debug/net7.0/MagicVilla_API.dll
+/MagicVilla_API/obj/Debug/net7.0/MagicVilla_API.pdb
