@@ -1,0 +1,11 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+/.vs/MagicVilla/DesignTimeBuild/.dtbcache.v2
+/.vs/MagicVilla/FileContentIndex/435e1d42-afe5-480e-9a7e-72afe46524c8.vsidx
+/.vs/MagicVilla/FileContentIndex/5d60a858-8a7e-4f89-b0d2-c80065a04c5f.vsidx
+/.vs/MagicVilla/FileContentIndex/72a67ec3-5570-4c07-8284-1b50a9ecae14.vsidx
+/.vs/MagicVilla/FileContentIndex/f5fdb793-f944-41c7-b2e9-ce409cd1fead.vsidx
+/.vs/MagicVilla/v17/.suo
