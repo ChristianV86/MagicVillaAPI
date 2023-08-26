@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WebApps\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj": {}
+    "C:\\WebApps\\MagicVillaAPI\\MagicVilla_API\\MagicVilla_API.csproj": {}
   },
   "projects": {
-    "C:\\WebApps\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj": {
+    "C:\\WebApps\\MagicVillaAPI\\MagicVilla_API\\MagicVilla_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WebApps\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
+        "projectUniqueName": "C:\\WebApps\\MagicVillaAPI\\MagicVilla_API\\MagicVilla_API.csproj",
         "projectName": "MagicVilla_API",
-        "projectPath": "C:\\WebApps\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
+        "projectPath": "C:\\WebApps\\MagicVillaAPI\\MagicVilla_API\\MagicVilla_API.csproj",
         "packagesPath": "C:\\Users\\CristianVanegas\\.nuget\\packages\\",
-        "outputPath": "C:\\WebApps\\MagicVilla\\MagicVilla_API\\obj\\",
+        "outputPath": "C:\\WebApps\\MagicVillaAPI\\MagicVilla_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CristianVanegas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[7.0.10, )"
