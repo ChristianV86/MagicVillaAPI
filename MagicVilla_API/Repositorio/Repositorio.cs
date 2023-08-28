@@ -56,6 +56,23 @@ namespace MagicVilla_API.Repositorio
         {
             dbSet.Remove(entidad);
             await Grabar();
-        }        
+        }
+
+        private void SetCreationAndUpdateDates(T entidad)
+        {
+            var now = DateTime.Now;
+            var entidadTipo = typeof(T);
+
+            entidadTipo.GetProperty("FechaCreacion")?.SetValue(entidad, now);
+            entidadTipo.GetProperty("FechaActualizacion")?.SetValue(entidad, now);
+        }
+
+        private void SetUpdateDate(T entidad)
+        {
+            var now = DateTime.Now;
+            var entidadTipo = typeof(T);
+
+            entidadTipo.GetProperty("FechaActualizacion")?.SetValue(entidad, now);
+        }
     }
 }

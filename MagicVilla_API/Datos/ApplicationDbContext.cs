@@ -11,6 +11,27 @@ namespace MagicVilla_API.Datos
 
         }
         public DbSet<Villa> Villas { get; set; }
+        public DbSet<NumeroVilla> numeroVillas { get; set; }
+
+        public override int SaveChanges()
+        {
+            var entradas = ChangeTracker.Entries();
+
+            foreach (var entrada in entradas)
+            {
+                if(entrada.State == EntityState.Added)
+                {
+                    entrada.Property("FechaCreacion").CurrentValue = DateTime.Now;
+                    entrada.Property("FechaActualizacion").CurrentValue = DateTime.Now;
+                }
+                if(entrada.State == EntityState.Modified)
+                {
+                    entrada.Property("FechaCreacion").IsModified = false;
+                    entrada.Property("FechaActualizacion").CurrentValue = DateTime.Now;
+                }
+            }
+            return base.SaveChanges();
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
